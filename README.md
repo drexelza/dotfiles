@@ -1,15 +1,15 @@
-# jldeen does dotfiles - forked from holman's repo
+# dotfiles - forked from jdeen's repo
 
 ### macOS Configuration
 Run the following to configure macOS from scratch...
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/jldeen/dotfiles/mac/configure.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/drexelza/dotfiles/mac/configure.sh)"
 ```
 
 ### WSL Configuration
 Run the following to configure WSL from scratch...
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/jldeen/dotfiles/wsl/configure.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/drexelza/dotfiles/wsl/configure.sh)"
 ```
 
 ## install
@@ -18,7 +18,7 @@ There are two "master" branches here: WSL and MacOS; there are two "dev" branche
 Run this if you wish to run from clone:
 
 ```sh
-git clone https://github.com/jldeen/dotfiles.git ~/.dotfiles
+git clone https://github.com/drexelza/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
